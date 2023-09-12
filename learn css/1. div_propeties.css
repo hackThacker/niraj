@@ -1,0 +1,40 @@
+.main{
+    width: 50vw;
+    height: 30vh;
+}
+
+#parent-id-row-1{
+    width: 50vw;
+    height: 25vh;
+    background-color: yellow;
+}
+.colm1{
+    width: 25vw;
+    height: 25vh;
+    background-color: blueviolet;
+    float: left;
+}
+.colm2{
+    width: 25vw;
+    height: 25vh;
+    background-color: burlywood;
+    float: left;
+}
+#parent-id-row-2{
+    width: 50vw;
+    height: 25vh;
+    background-color: blue;
+}
+.col1{
+    width: 25vw;
+    height: 25vh;
+    background-color: brown;
+    float: left;
+}
+.col2{
+    width: 25vw;
+    height: 25vh;
+    background-color: chartreuse;
+    float: left;
+    
+}
