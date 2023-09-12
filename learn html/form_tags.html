@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form >
+        <center><h1> this is learning form </h1></center>
+        <fieldset>
+            <legend>Normal Forms</legend>
+name: <input type="text"  id="name" placeholder="Enter your name: " required>
+<br>
+<br>
+Adress: <input type="text" name="text" id="adress" placeholder="Enter your adress" required>
+<br>
+<br>
+gender: <input type="radio" name="gender" id="male" value="m" >Male
+<input type="radio" name="gender" id="female" value="f">Female
+
+<br>
+<br>
+email: <input type="email" name="email" id="email"   placeholder="Enter your email" required>
+
+<br>
+<br>
+password: <input type="password" name="password" id="password" placeholder="enter your password " required>
+<input type="password" name="conform_password" id="conform_password" placeholder="enter your conform passsword"required>
+
+<br>
+<br>
+Mobile number: <input type="number" name="mobile" id="mobile"placeholder="enter your mobile number: "required>
+<br>
+<br>
+country:
+<select name="country" id="country" required>
+    <option value="country">chose your country</option>
+    <optgroup label="Asia">
+    <option value="nepal">nepal</option>
+    <option value="china">china</option>
+    <option value="india">india</option>
+    <option value="bhutan">bhutan</option>
+</optgroup>
+<optgroup label="north america">
+    <option value="america">america</option>
+    <option value="austerical">austercia</option>
+</optgroup>
+<optgroup label="south america">
+    <option value="argentina">argentina</option>
+    <option value="brazil">brazil</option>
+
+</optgroup>
+<optgroup label="europ">
+    <option value="german">german</option>
+    <option value="france">france</option>
+</optgroup>
+</select>
+
+<br>
+<br>
+
+Hobbies: <input type="checkbox" name="hobbie[]" id="singing">singing
+<input type="checkbox" name="hobbie[]" id="dancing">dancing
+<input type="checkbox" name="hobbie[]" id="dancing">technology
+<input type="checkbox" name="hobbie[]" id="dancing">web developer
+<input type="checkbox" name="hobbie[]" id="dancing">learner
+
+<br>
+<br>
+upload files: <input type="file" name="files" id="files">
+<br>
+<br>
+<input type="submit" value="sumbit">
+</fieldset>
+    </form>
+
+
+    <h2>Advance form</h2>
+    <form action="">
+        <fieldset>
+            <legend>html5 form</legend>
+color picker: <input type="color" name="colors"> color code picker
+<br>
+<br>
+email: <input type="email" name="email" id="">
+<br>
+<br>
+password: <input type="password" name="password" id="">
+<br>
+<br>
+Age: <input type="Number" name="number" id="">
+<br>
+<br>
+secrect: <input type="hidden" name="">
+
+<br>
+<br>
+<input type="submit" value="sumbit">
+        </fieldset>
+    </form>
+<h2> html  events</h2>
+    <form>
+        <fieldset>
+            <legend>html5  events</legend>
+            date: <input type="date" name="" id="">
+<br>
+            <br>
+            date time : <input type="datetime-local" name="" id="">
+            <br>
+            <br>
+            time: <input type="time" name="" id="">
+            <br>
+            <br>
+           month: <input type="month">
+           <br>
+            <br>
+            week: <input type="week" name="" id="">
+            <br>
+            <br>
+            range : <input type="range" name="" id="">
+            <br>
+            <br>
+
+<input type="submit" value="submit">
+        </fieldset>
+        
+    </form>
+<h2> html 5 learning</h2>
+    <form action="">
+        <fieldset>
+            <legend>html5 attributs</legend>
+            autofocus : <input type="text" name="" id="" autofocus>
+
+            <br>
+            <br>
+            checked  by default: <input type="radio" name="male" id="" checked="">male
+            <input type="radio" name="male" id="">female
+<br>
+<br>
+readonly : <input type="text" name="text" id="text" value="readonly" readonly="">
+<br>
+<br>
+Write value : <input type="text" name="text" id="text" value="readonly" writeonly>
+<br>
+<br>
+disabled : <input type="text" name="text" id="text" value="readonly" disabled="">
+
+<br>
+<br>
+number with min and max : <input type="number" name="text" id="text" min="5" max="15" >
+<br>
+<br>
+range with min max and default: <input type="range" name="range" id="" min="15" max="300" value="90">
+<br>
+<br>
+max length: <input type="text" name="text" id="" placeholder="enter 15 words" maxlength="15">
+<input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
