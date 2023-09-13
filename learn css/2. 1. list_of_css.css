@@ -1,0 +1,15 @@
+.txt h1{
+width: 70vw;
+height: 50vh;
+background-color: red;
+font-size: 90px;
+color: blue;
+font-weight: bold;
+font-style: oblique;
+}
+h1{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+    
+}

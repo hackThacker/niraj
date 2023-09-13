@@ -1,0 +1,29 @@
+.align h1{
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    color: yellow;
+    text-align: center;
+}
+.decorate h2{
+ width: 60vw;
+ height: 60vh;
+ background-color: aqua;
+ color: blue;
+text-decoration: underline;
+}
+.transfor h2{
+    width: 70vw;
+    height: 70vh;
+    background-color: blue;
+    color: chartreuse;
+    text-transform: uppercase;
+
+} 
+.spacing h2{
+width: 80vw;
+height: 80vh;
+background-color: cyan;
+color: black;
+word-spacing: 50px;
+}
