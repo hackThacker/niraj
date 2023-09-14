@@ -1,0 +1,173 @@
+.hover {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    color: yellow;
+    text-align: left;
+    float: left;
+}
+
+.hover:hover {
+    background-image: url(../images/MERn.jpg);
+    color: red;
+}
+
+#hover {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    color: blue;
+    text-align: left;
+    margin-left: 15px;
+    float: left;
+}
+
+#hover:hover {
+    background-color: chartreuse;
+    color: red;
+    width: 650px;
+    display: inline-flex;
+    height: 500px;
+    border: 5px solid blue;
+    background-image: url(../images/MERn.jpg);
+
+}
+
+.border {
+    width: 100px;
+    height: 50px;
+
+}
+
+.main1 .bor1 {
+    border: 5px dashed black;
+    margin-bottom: 10px;
+}
+
+.main1 .bor2 {
+    border: 5px dotted red;
+    margin-bottom: 10px;
+}
+
+.main1 .bor3 {
+    border: 5px solid yellow;
+    margin-bottom: 15px;
+}
+
+.border1 {
+    width: 300px;
+    height: 150px;
+    border-top: 5px dotted blue;
+    border-bottom: 5px dashed green;
+    border-left: red 5px solid;
+    border-right: yellow 5px solid;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.border1:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+.bordermargin {
+    width: 400px;
+    height: 300px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid blue;
+    border-right: 5px solid green;
+    border-left: 5px solid black;
+
+}
+
+.margin1 {
+    width: 380px;
+    height: 260px;
+    border: 5px solid rgba(162, 162, 33, 0.797);
+    margin: 5px 5px 5px 5px;
+}
+
+.margin2 {
+    width: 360px;
+    height: 220px;
+    border: 5px solid rgb(64, 44, 216);
+    margin: 5px 5px 5px 5px;
+}
+
+.margin3 {
+    width: 340px;
+    height: 180px;
+    border: 5px solid rgb(19, 214, 68);
+    margin: 5px 5px 5px 5px;
+}
+
+.margin4 {
+    width: 320px;
+    height: 140px;
+    border: 5px solid rgb(243, 41, 41);
+    margin: 5px 5px 5px 5px;
+}
+
+.margin5 {
+    width: 300px;
+    height: 100px;
+    border: 5px solid rgb(140, 37, 219);
+    margin: 5px 5px 5px 5px;
+}
+
+.margin6 {
+    width: 280px;
+    height: 60px;
+    border: 5px solid rgb(43, 199, 227);
+    margin: 5px 5px 5px 5px;
+}
+
+.margin1:hover {
+    width: 380px;
+    height: 260px;
+    background-color: blue;
+}
+
+.margin2:hover {
+    width: 360px;
+    height: 220px;
+    background-color: red;
+}
+
+.margin3:hover {
+    width: 340px;
+    height: 180px;
+    background-color: aquamarine;
+}
+
+.margin4:hover {
+    background-color: chartreuse;
+    width: 320px;
+    height: 140px;
+}
+
+.margin5:hover {
+    background-color: cyan;
+    width: 300px;
+    height: 100px;
+}
+
+.margin6:hover {
+    width: 280px;
+    height: 60px;
+    background-color: gold;
+}
+#padding{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 25px 25px 25px 25px;
+
+}
+#padding p{
+    width: 390px;
+    height: 280px;
+    border: 5px solid yellow;
+}

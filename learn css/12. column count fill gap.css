@@ -1,0 +1,16 @@
+.main{
+    height: 50px;
+}
+.main .colum2{
+    height: 50px;
+    column-count: 10;
+    column-gap: 50px;
+    column-fill: auto;
+}
+.colum3{
+    /* column-count: 5; */
+    column-rule: 5px double red;
+    column-width: 500px;
+} h2{
+    column-span: all;
+}
