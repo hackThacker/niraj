@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    height: 300px;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sun {
+    width: 140px;
+    height: 140px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: -20px;
+    animation-name: sun;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes sun {
+    form {
+        top: 50px;
+        left: -20px;
+        background-color: orange;
+    }
+
+    to {
+        top: 50px;
+        left: 110%;
+        background-color: gold;
+
+    }
+}
+
+.cloud1 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    opacity: 0.8;
+    left: 130px;
+    animation-name: cloud1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes cloud1 {
+    form {
+        top: 20px;
+        left: 130px;
+    }
+
+    to {
+        top: 20px;
+        left: 110%;
+
+    }
+}
+
+.cloud2 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 90px;
+    opacity: 0.8;
+    left: 30em;
+    animation-name: cloud2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes cloud2 {
+    form {
+        top: 90px;
+        left: 30em;
+    }
+
+    to {
+        top: 90px;
+        left: 110%;
+
+    }
+}
+
+.cloud3 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    opacity: 0.8;
+    right: 20em;
+    animation-name: cloud3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes cloud3 {
+    form {
+        top: 20px;
+        right: 20em;
+    }
+
+    to {
+        top: 20px;
+        right: 100%;
+
+    }
+}
+
+.cloud4 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 70px;
+    opacity: 0.8;
+    right: -10px;
+    animation-name: cloud4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes cloud4 {
+    form {
+        top: 90px;
+        right: -10px;
+    }
+
+    to {
+        top: 90px;
+        right: 110%;
+
+    }
+}

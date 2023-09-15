@@ -1,0 +1,100 @@
+.main{
+    border: 3px solid black;
+    width: 1000px;
+    height: 750px;
+}
+.main div{
+    height: 98px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 5px;
+}
+.new{
+    border: 3px solid black;
+    width: 800px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 150px 170px 190px 100px 100px 100px 200px;
+}
+.new div{
+    height: 98px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 5px;
+   
+}
+.new1{
+    border: 3px solid black;
+    width: 1000px;
+    height: 750px;
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-row-gap: 5px;
+}
+.new1 div{
+    height: 48px;
+    width: 98%;
+    border: 2px solid red;
+    margin-top: 5px;
+    padding-left: 15px;
+   
+}
+
+.new2{
+    border: 3px solid black;
+    width: 1000px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 50px;
+}
+.new2 div{
+    height: 88px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 5px;
+    font-size: 30px;
+   
+}
+
+.new5{
+    width: 500px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    border: 3px solid black;
+    grid-gap: 10px 20px;
+
+}
+.new5 div{
+    height: 20;
+    width: auto;
+    
+
+}
+.new6{
+    display: grid;
+    width: 900px;
+    height: 700px;
+    grid-template-columns: auto auto auto;
+    border: 2px solid red;
+    margin: auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    padding: 10px;
+/* grid-gap: 10px 20px; */
+
+}
+.new6 div{
+    border: 1px solid black;
+    padding: 50px;
+    font-size: 60px;
+}
+#colm{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#row{
+    grid-row-start: 3;
+    grid-row-end: 7;
+}

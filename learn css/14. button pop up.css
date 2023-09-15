@@ -1,0 +1,26 @@
+.main{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid red;
+    margin-top: 100px;
+    position: relative;
+}
+.button{
+    width: 500px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+
+}
+.main:hover .button{
+    opacity: 1;
+    transition: 1.5s;
+
+
+}

@@ -1,0 +1,82 @@
+span{
+    color: blue;
+    font-size: 20px;
+    
+}
+h2{
+    color: red;
+    font-size: 20px;
+    display:  inline;
+}
+p{
+    display: inline;
+}
+h3{
+border: 2px solid yellow;
+}
+h4{
+    border: 2px solid blue;
+    display: inline;
+    font-size: 25px;
+}
+h5{
+    border: 2px solid black;
+    font-size: 30px;
+    display: none;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+
+}
+.main #hello{
+    display: block;
+    color: blue;
+    border: 2px solid greenyellow;
+}
+.main .inline{
+    display: inline;
+    border: 2px solid purple;
+}
+.main .inlin-block{
+    display: inline-block;
+    border: 2px solid blue;
+}
+.main .list-tem{
+    display: list-item;
+    border: 2px solid grey;
+}
+.maincss{
+    width: 700px;
+    height: 600px;
+    border: 3px solid black;
+}
+.maincss div{
+    border: 3px solid red;
+    height: 94px;
+}
+.maincss1{
+    width: 700px;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+}
+.maincss1 div{
+    margin-top: 50px;
+    border: 3px solid blue;
+    height: 109px;
+}
+.maincss2{
+    width: 700px;
+    height: 450px;
+    border: 3px solid black;
+}
+.maincss2 div{
+    float: left;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid rgb(220, 9, 76);
+    height: 100px;
+}
