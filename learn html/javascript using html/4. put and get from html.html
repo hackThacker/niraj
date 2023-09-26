@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../learn js/4. put and get html elements.js"></script>
+    <title>Document</title>
+</head>
+<style>
+</style>
+<body>
+    <h1> javascript dom(Document objects models) functions</h1>
+    <div id="new">
+        welcome to pages
+    </div>
+    <div class="seco">
+        1. this is first one
+    </div>
+    <div class="seco">
+        2. click on inspect and click and watch on console
+    </div>
+    <script>
+        document.getElementById("new").innerHTML = "<h1> hello this is new h1 </h1>";
+        var n = document.getElementsByClassName("seco");
+        console.log(n);
+    </script>
+    <script>
+        var x = document.getElementsByClassName("seco")[0].innerHTML;
+        alert(x);
+        var yx = document.getElementsByClassName("seco")[1].innerHTML;
+        alert(yx);
+    </script>
+    <script>
+        document.getElementsByClassName("seco")[0].innerHTML=" hello everyone ";
+        document.getElementsByClassName("seco")[1].innerHTML="this is going to change";
+    </script>
+
+    <div class="new1"> </div>
+    <div id="new2"></div>
+
+</body>
+
+</html>
