@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../learn js/5. oprators and types.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td,
+    tr {
+        border: 2px solid black;
+        padding: 5px;
+    }
+
+    td {
+        font-size: 28px;
+
+    }
+
+    th,
+    thead {
+        border: 2px solid red;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 35px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>operators and data types</h1>
+    <hr>
+    <ul>
+        <li>
+            <h3>What is an operators</h3>
+            <ol>
+                <li>An operators is a symbol that tell the compiler which arithmetic or logical operation to be
+                    performed between the respective operands
+                    <ul>
+                        <h2> types of operators</h2>
+                        <li>
+                            <h1> arithmetic operators</h1>
+                        </li>
+                        <table>
+                            <thead>
+                                <th>operators</th>
+                                <th> examples</th>
+                                <th id="results"> results</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> + addition</td>
+                                    <td> examples: X+Y</td>
+                                    <td><label for="inputA"> a: </label>
+                                        <input type="text" id="inputA"><br>
+
+                                        <label for="inputB"> b: </label>
+                                        <input type="text" id="inputB"><br>
+
+                                        <button onclick="calculateSum()">Sum</button>
+
+                                        <p>The sum is: <span id="sum"></span></p>
+
+                                </tr>
+
+                                <tr>
+                                    <td> - subtraction</td>
+                                    <td> examples : X-y</td>
+                                    <td>
+                                        <label for="inputA"> a: </label>
+                                        <input type="text" id="inputC"><br>
+
+                                        <label for="inputB"> b: </label>
+                                        <input type="text" id="inputD"><br>
+
+                                        <button onclick="calculateSub()">Sub</button>
+
+                                        <p>The sub is: <span id="sub"></span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>* mutiplication</td>
+                                    <td> examples: x*y</td>
+                                    <td> <label for="inputE"> a: </label>
+                                        <input type="text" id="inputE"><br>
+
+                                        <label for="inputF"> b: </label>
+                                        <input type="text" id="inputF"><br>
+
+                                        <button onclick="calculateMul()">Mul</button>
+
+                                        <p>The mul is: <span id="mul"></span></p>
+                                </tr>
+                                <tr>
+                                    <td>/ division</td>
+                                    <td> examples : x/y</td>
+                                    <td>
+                                        <label for="inputG"> a: </label>
+                                        <input type="text" id="inputG"><br>
+
+                                        <label for="inputH"> b: </label>
+                                        <input type="text" id="inputH"><br>
+
+                                        <button onclick="calculatediv()">Divide</button>
+
+                                        <p>The Divide is: <span id="div"></span></p>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> % modules</td>
+                                    <td> examples : x%y</td>
+                                    <td>
+                                        <label for="inputG"> a: </label>
+                                        <input type="text" id="inputI"><br>
+
+                                        <label for="inputH"> b: </label>
+                                        <input type="text" id="inputJ"><br>
+
+                                        <button onclick="calculatemod()">moduloes</button>
+
+                                        <p>The modules is: <span id="mod"></span></p>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td> ++ increments</td>
+                                    <td> examples: x++</td>
+                                    <td>
+                                        <label for="inputl"></label>
+                                        <input type="text" id="inputl">
+                                        <button onclick="calculateinc()">Increments</button>
+                                        <p>The Increments is: <span id="inc"></span></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>-- decrement</td>
+                                    <td> examples: y-- </td>
+                                    <td>
+                                        <label for="inputm"></label>
+                                        <input type="text" id="inputm">
+                                        <button onclick="calculatedec()">decrement</button>
+                                        <p>The decrementis: <span id="dec"></span></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h1>
+                            <li>comparsion operators into javascript</li>
+
+                        </h1>
+
+                        <table>
+                            <thead>
+                                <th>operators</th>
+                                <th>examples</th>
+                                <th> results</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>== equal</td>
+                                    <td>examples: x==y</td>
+                                    <td>
+                                        <label for="number1">first number:</label>
+                                        <input type="number" id="number1">
+                                        <br>
+                                        <label for="number2"> second number:</label>
+                                        <input type="number" id="number2">
+                                        <br>
+                                        <button onclick="compareNumbers()">Compare</button>
+
+                                        <p id="result"></p>
+                                    </td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>!= not equal</td>
+                                    <td>examples: x != y</td>
+                                    <td>
+                                        <label for="number1">first number:</label>
+                                        <input type="number" id="number3">
+                                        <br>
+                                        <label for="number2">second number:</label>
+                                        <input type="number" id="number4">
+                                        <br>
+                                        <button onclick="compare()">Compare</button>
+
+                                        <p id="new"></p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>> greater than</td>
+                                    <td> examples: x > y</td>
+                                    <td>
+                                        <label for="number1">first number:</label>
+                                        <input type="number" id="number5">
+                                        <br>
+                                        <label for="number2">second number:</label>
+                                        <input type="number" id="number6">
+                                        <br>
+                                        <button onclick="compare1()">Compare</button>
+
+                                        <p id="new1"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        < less than</td>
+                                    <td>examples:x <code><</code>y </td>
+                                    <td>
+                                        <label for="number1">first number:</label>
+                                        <input type="number" id="number7">
+                                        <br>
+                                        <label for="number2">second number:</label>
+                                        <input type="number" id="number8">
+                                        <br>
+                                        <button onclick="less()">Compare</button>
+
+                                        <p id="new2"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>>= greater than or equal to </td>
+                                    <td> examples : x>=y </td>
+                                    <td>
+                                        <label for="number1">first number:</label>
+                                        <input type="number" id="number9">
+                                        <br>
+                                        <label for="number2">second number:</label>
+                                        <input type="number" id="number10">
+                                        <br>
+                                        <button onclick="great()">Compare</button>
+
+                                        <p id="new3"></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <= less than or equal to</td>
+                                    <td>examples: x<= y</td>
+                                    <td>
+                                        <label for="number1">First number:</label>
+                                        <input type="number" id="num9">
+                                        <br>
+                                        <label for="number2">Second number:</label>
+                                        <input type="number" id="num1">
+                                        <br>
+                                        <button onclick="lesser()">Compare</button>
+                                        <p id="new4"></p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </li>
+                <h1>
+                    <li>logical and ternary operators</li>
+                </h1>
+                <table>
+                    <thead>
+                        <th> operators</th>
+                        <th> examples</th>
+                        <th> results</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&& logical(AND)</td>
+                            <td> examples : x && y</td>
+                            <td> 
+                                the && operator is used for logical AND operations. It returns true if both operands are true, and false otherwise.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> || logical(OR)</td>
+                            <td> examples : x || y</td>
+                            <td>
+                                the || operator is used for logical OR operations. It returns true if at least one of the operands is true, and it returns false if both operands are false
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>conditon ? true : false</td>
+                            <td> examples : 2 >1 ? "yes" : "No"</td>
+                            <td>
+                                If the condition is true, it evaluates to trueValue; otherwise, it evaluates to falseValue
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+    </ul>
+
+    <br>
+
+    </li>
+    </ul>
+    </li>
+    </ul>
+    <br>
+    <br>
+
+
+</body>
+
+</html>
