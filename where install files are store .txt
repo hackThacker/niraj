@@ -1,0 +1,14 @@
+all apt install packages
+
+cd /var/cache/apt/archives/
+ls
+
+
+where packages is install 
+
+which amass
+whereis amass
+
+
+list of install package tools list find using grep
+ apt list --installed | grep ettercap
